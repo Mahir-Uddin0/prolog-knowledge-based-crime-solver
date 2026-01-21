@@ -67,6 +67,8 @@ The final conclusion is reached entirely through **logical deduction**.
 ?- killer_pair(X, Y).
 ?- killer_group_chain(X, Y).
 ?- killer_pair_motives(X, Motive).
+?- killer_pair_evidence(X, Evidence).
+?- killer_pair_coverup(X, Coverup).
 ```
 
 ---
@@ -107,9 +109,3 @@ This project can be extended in several meaningful ways:
 - **Symbolic Artificial Intelligence**
 
 ---
-
-
-
-
-?- killer_pair_evidence(X, Evidence).
-?- killer_pair_coverup(X, Coverup)
