@@ -7,6 +7,27 @@ Instead of hard-coding conclusions, the system **infers results logically**, dem
 
 ---
 
+## ▶️ How to Run the Project
+
+This project can be executed directly using the **SWI-Prolog online interpreter**.
+### Steps:
+1. Open the official SWI-Prolog online environment:  
+   👉 https://swish.swi-prolog.org/
+
+2. Create a new file in the editor.
+
+3. Copy the contents of the `.pl` file from this repository and paste it into the editor.
+
+4. Click **Run** (or press `Ctrl + Enter`) to load the knowledge base.
+
+5. Execute queries in the query panel, for example:
+   ```prolog
+   ?- possible_killer(X).
+   ?- killer_pair(X, Y).
+   ?- killer_group_chain(X, Z).
+
+---
+
 ## 🧠 AI Concept Used
 This project belongs to the domain of:
 
