@@ -67,5 +67,49 @@ The final conclusion is reached entirely through **logical deduction**.
 ?- killer_pair(X, Y).
 ?- killer_group_chain(X, Y).
 ?- killer_pair_motives(X, Motive).
+
+
+---
+
+## 🧪 Result Summary
+After querying the Prolog model for information about the final suspects, the system logically identified **Mehedi and Nanziba** as the **killer pair**.
+
+The conclusion was derived automatically based on:
+- Shared financial motive
+- Contradictory testimonies
+- Mutual cover-ups
+- Unauthorized fingerprints in restricted areas
+- Late exit times after CCTV erasure
+
+Rather than manually analyzing these interconnected facts, the Prolog inference engine processed all available knowledge and rules to deduce the final outcome, demonstrating the strength of logical reasoning over complex information.
+
+---
+
+## 🚀 Future Work
+This project can be extended in several meaningful ways:
+
+- **Automated Fact Extraction:**  
+  Instead of manually encoding facts, a user interface or natural language parser could be used to convert witness statements and reports directly into Prolog facts.
+
+- **Dynamic Rule Generation:**  
+  Rules could be generated or adjusted dynamically based on the scenario, allowing the system to adapt to different crime stories without rewriting core logic.
+
+- **Visualization Support:**  
+  Visual representations of relationships, contradictions, and cover-up chains could make the reasoning process easier to understand.
+
+---
+
+## 🛠 Tech Stack
+- **Prolog**
+- **Logic Programming**
+- **Expert Systems**
+- **Knowledge Representation and Reasoning**
+- **Symbolic Artificial Intelligence**
+
+---
+
+
+
+
 ?- killer_pair_evidence(X, Evidence).
 ?- killer_pair_coverup(X, Coverup).
